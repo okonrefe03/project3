@@ -1,0 +1,44 @@
+.navbar {
+    border:1px solid;
+    font-size: 20px;
+    background-color: #333;
+    text-align: center;
+    border: 10px;
+}
+
+    
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 34px;
+    padding: 30px; 
+    transition: 4s ease;
+    
+    
+}
+.navbar ul li a{
+    list-style: none;
+    text-decoration: none;
+
+}
+.active {
+    background-color: #4CAF50;
+    color: white;} 
+}
+.loginForm {
+    text-align: center;
+}
+
+.loginForm form{
+    padding: 30px;
+    margin: 1opx;
+}
+body{
+    background-color:  darkturquoise;
+    text-align: center;
+}
+.loginForm form input{
+    border-radius: 10px;
+    padding:40px;
+}
